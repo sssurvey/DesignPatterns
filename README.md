@@ -1,4 +1,11 @@
 # Design Pattern Study Plan:
 - [ ] MVVM
 - [ ] Data Binding
+	- [x] Enable Databinding
+	- [x] POJO basic binding
+	- [x] Binding Click Listeners
+	- [x] Updating UI with Obserables @Bindable
+	- [x] Updating UI with ObservableFields
+	- [ ] Loading image form URL (Glide or Picasso)
+	- [ ] Binding Java functions
 - [ ] ...
