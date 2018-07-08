@@ -7,6 +7,6 @@ import android.databinding.ObservableArrayMap;
 public class GameViewModel {
 	public ScoreBoard my_scoreBoard = new ScoreBoard();
 	public String current_score = my_scoreBoard.toString();
-	
+
 
 }

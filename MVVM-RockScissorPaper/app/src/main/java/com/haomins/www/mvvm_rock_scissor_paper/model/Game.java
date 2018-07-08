@@ -1,5 +1,7 @@
 package com.haomins.www.mvvm_rock_scissor_paper.model;
 
+import com.haomins.www.mvvm_rock_scissor_paper.viewmodel.GameViewModel;
+
 import android.arch.lifecycle.MutableLiveData;
 
 public class Game {
@@ -37,5 +39,6 @@ public class Game {
 		player1 = null;
 		player2 = null;
 		currentPlayer = null;
+
 	}
 }
