@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
 		}
 
 		public void onButtonClicked(View view){
-			Toast.makeText(getApplicationContext(), "Clicked", Toast.LENGTH_LONG).show();
+			Toast.makeText(getApplicationContext(), "Clicked and name changed", Toast.LENGTH_LONG).show();
+			user.setName("Satoshi Nakamoto");
 		}
 
 		public boolean onButtonLongClick(View view){
