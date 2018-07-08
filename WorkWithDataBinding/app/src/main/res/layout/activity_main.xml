@@ -3,6 +3,9 @@
         <variable
             name="user"
             type="com.haomins.www.workwithdatabinding.model.User"/>
+        <variable
+            name="handlers"
+            type="com.haomins.www.workwithdatabinding.view.MainActivity.MyClickHandlers" />
     </data>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -27,9 +30,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:text="Action!"
+        android:onClick="@{handlers::onButtonClicked}"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
 
     <TextView
         android:id="@+id/textView_email"
