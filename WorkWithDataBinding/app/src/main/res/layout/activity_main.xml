@@ -75,6 +75,7 @@
         android:layout_marginTop="8dp"
         android:text="Args!"
         android:onClick="@{(v)->handlers.onButtonClickWithArgs(v, user)}"
+        android:onLongClick="@{handlers::onButtonLongClickAbove}"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

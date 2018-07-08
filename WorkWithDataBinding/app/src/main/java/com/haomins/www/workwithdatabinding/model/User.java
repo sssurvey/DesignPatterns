@@ -2,8 +2,11 @@ package com.haomins.www.workwithdatabinding.model;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
+import android.databinding.BindingAdapter;
+import android.widget.ImageView;
 
 import com.android.databinding.library.baseAdapters.BR;
+import com.bumptech.glide.Glide;
 
 public class User extends BaseObservable{
 	String name;
