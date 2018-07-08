@@ -42,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
 		public void onButtonClicked(View view){
 			Toast.makeText(getApplicationContext(), "Clicked", Toast.LENGTH_LONG).show();
 		}
+
+		public boolean onButtonLongClick(View view){
+			Toast.makeText(getApplicationContext(), "Button LONG pressed", Toast.LENGTH_LONG).show();
+			return false;
+		}
+
+		public void onButtonClickWithArgs(View view, User user){
+			Toast.makeText(getApplicationContext(), "Button With " + user.toString(), Toast.LENGTH_LONG).show();
+		}
+
+
 	}
 
 
