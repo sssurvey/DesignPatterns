@@ -9,10 +9,12 @@ import android.widget.Toast;
 
 import com.haomins.www.workwithdatabinding.R;
 import com.haomins.www.workwithdatabinding.databinding.ActivityMainBinding;
+import com.haomins.www.workwithdatabinding.model.DifferentUser;
 import com.haomins.www.workwithdatabinding.model.User;
 
 public class MainActivity extends AppCompatActivity {
 	private User user;
+	private DifferentUser duser;
 	private MyClickHandlers handlers;
 
 	@Override
@@ -27,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
 		user.setName("Jadas Nakamoto");
 		user.setEmail("JNmoto@moto.rola");
 		binding.setUser(user);
+
+		duser = new DifferentUser();
+		duser.nameAndEmail.set("shi, shi@ish.ssh");
 
 		handlers = new MyClickHandlers(this);
 		binding.setHandlers(handlers);
@@ -46,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 		public boolean onButtonLongClick(View view){
 			Toast.makeText(getApplicationContext(), "Button LONG pressed", Toast.LENGTH_LONG).show();
+			duser.nameAndEmail.set("hahahaha clicked");
 			return false;
 		}
 

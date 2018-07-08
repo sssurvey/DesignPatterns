@@ -7,6 +7,9 @@
         <variable
             name="handlers"
             type="com.haomins.www.workwithdatabinding.view.MainActivity.MyClickHandlers" />
+        <variable
+            name="diff"
+            type="com.haomins.www.workwithdatabinding.model.DifferentUser"/>
     </data>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -57,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@{diff.nameAndEmail}"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
