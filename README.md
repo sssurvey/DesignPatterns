@@ -1,5 +1,4 @@
 # Design Pattern Study Plan:
-- [ ] MVVM
 - [ ] Data Binding
 	- [x] Enable Databinding
 	- [x] POJO basic binding
@@ -8,4 +7,12 @@
 	- [x] Updating UI with ObservableFields
 	- [ ] Loading image form URL (Glide or Picasso)
 	- [ ] Binding Java functions
-- [ ] ...
+- [ ] MVP
+	- [x] Readings 1: https://www.techyourchance.com/activities-android/
+	- [ ] Readings 2: https://android.jlelse.eu/android-mvp-for-beginners-25889c500443
+		- Code Examples: https://github.com/nitinagg1/android-video-listing-mvp
+	- [ ] ...
+- [ ] __MVVM__ (Focus)
+	- [ ] Readings 1: https://stfalcon.com/en/blog/post/android-mvvm
+	- [ ]  ...
+	- [ ] 
