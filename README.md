@@ -1,5 +1,6 @@
 # Design Pattern Study Plan:
 - [ ] Data Binding
+	- [ ] Readings 1: https://stfalcon.com/en/blog/post/faster-android-apps-with-databinding
 	- [x] Enable Databinding
 	- [x] POJO basic binding
 	- [x] Binding Click Listeners
@@ -16,3 +17,6 @@
 	- [ ] Readings 1: https://stfalcon.com/en/blog/post/android-mvvm
 	- [ ] ...
 	- [ ] ...
+
+- [ ] Repository Design Pattern
+	- [ ] Readings 1: https://medium.com/@krzychukosobudzki/repository-design-pattern-bc490b256006
